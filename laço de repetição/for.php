@@ -1,6 +1,6 @@
 <?php
 
-$letras=["a","b","c","d","e","f"];
+$letras=["a","b","c","d","e","f","g"];
 
 
 
