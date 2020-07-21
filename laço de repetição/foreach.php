@@ -1,7 +1,35 @@
 <?php
 
 
-$letras=[
+
+$letras=["a", "b", "c", "d", "e", "f", "g", "h","i"];
+
+
+foreach ($letras as $letra) {
+
+        echo $letra. "\n";
+}
+
+
+
+
+
+
+
+
+/*$letras=["a", "b", "c", "d", "e", "f", "g", "h"];
+
+
+foreach ($letras as $key => $letra) {
+        echo "$key => $letra \n";
+
+
+
+}
+*/
+
+
+/*$letras=[
     "a" =>"aa",
     "b" =>"bb",
     "c" =>"cc",
@@ -19,29 +47,6 @@ echo "$key => $letra \n";
 
 
 }
-
-
-/*$letras=["a", "b", "c", "d", "e", "f", "g", "h"];
-
-
-foreach ($letras as $key => $letra) {
-        echo "$key => $letra \n";
-
-
-
-}
-
-
-
-/*$letras=["a", "b", "c", "d", "e", "f", "g", "h"];
-
-
-foreach ($letras as $letra) {
-
-        echo $letra. "\n";
-}
-
 */
-
 
 ?>
